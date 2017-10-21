@@ -1,0 +1,53 @@
+{
+  "name": "Why-Label",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "dev": "webpack-dev-server --content-base build/ --history-api-fallback",
+    "server": "nodemon ./backend/server.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahirjamal/Why-Label.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahirjamal/Why-Label/issues"
+  },
+  "homepage": "https://github.com/sahirjamal/Why-Label#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2",
+    "history": "^4.6.3",
+    "nodemon": "^1.11.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "redux": "^3.7.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.71.5",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
