@@ -18,7 +18,7 @@ app.use(function(req, res, next) {
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.use('/api', api);
+// app.use('/api', api);
 
 app.get('/*', function(req, res) {
 	res.sendFile(path.join(__dirname, 'index.html'));

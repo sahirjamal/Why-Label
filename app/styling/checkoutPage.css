@@ -1,0 +1,12 @@
+.bottomRow {
+  flex-direction: row;
+}
+
+.returnToCart {
+  width: 50%;
+}
+
+
+.shippingButton {
+  float: right;
+}
