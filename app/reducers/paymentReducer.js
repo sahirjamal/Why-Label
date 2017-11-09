@@ -3,32 +3,16 @@ import _ from 'underscore';
 import stateList from '../components/stateList';
 
 const initialState = {
-  firstName: '',
-  lastName: '',
-  phoneNumber: '',
-  emailAddress: '',
-  shippingAddress: '2132 skylane dr.',
+  shippingAddress: '',
   shippingAddress2: '',
-  usCity: 'Naperville',
+  usCity: '',
   usStates: stateList,
   selectedState: 'Alabama',
-  zipCode: '60564',
+  zipCode: '',
 };
 
-const checkoutReducer = (state = initialState, action) => {
+const paymentReducer = (state = initialState, action) => {
   switch (action.type) {
-
-    case types.FIRST_NAME:
-      return Object.assign({}, state, {firstName: action.name});
-
-    case types.LAST_NAME:
-      return Object.assign({}, state, {lastName: action.name});
-
-    case types.PHONE_NUMBER:
-      return Object.assign({}, state, {phoneNumber: action.number});
-
-    case types.EMAIL_ADDRESS:
-      return Object.assign({}, state, {emailAddress: action.email});
 
     case types.SHIPPING_ADDRESS:
       return Object.assign({}, state, {shippingAddress: action.address});
@@ -50,4 +34,4 @@ const checkoutReducer = (state = initialState, action) => {
   }
 };
 
-export default checkoutReducer;
+export default paymentReducer;

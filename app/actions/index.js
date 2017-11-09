@@ -7,13 +7,6 @@ export function navigate(route){
 }
 
 // Cart Functions
-export function toggleProduct(product) {
-  return {
-    type: types.TOGGLE_PRODUCT,
-    product
-  }
-}
-
 export function addProduct(product) {
   return {
     type: types.ADD_PRODUCT,

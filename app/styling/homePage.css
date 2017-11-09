@@ -1,34 +1,42 @@
-.cart {
-  padding-top: 5px;
-  margin-right: 100px;
-  border-style: solid;
+image {
+  cursor: pointer;
 }
 
-.topRow{
-  /* flex-direction: row; */
-  border-style: solid;
-}
+/* ---------- Top Row ---------- */
 
 .whyLabel {
-  border-style: solid;
-  padding: 10px;
+  padding-top: 10px;
 }
 
-/* Middle Row */
-
-.column1 {
-  border-style: solid;
-  width: max-content;
+.whyLabel h4 {
+  font-size: 50px;
+  padding-left: 20px;
 }
 
-.column2 {
-  border-style: solid;
+.cartColumn {
+  padding-top: 10px;
 }
 
-.middleRow {
-  border-style: solid;
+.navOptions {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+  margin-top: 0px;
+  font-size: 16px;
+  /* margin-right: 15px; */
+  padding-right: 50px;
 }
+
+.navOptions li {
+  margin-right: 25px;
+}
+
+/* ---------- Middle Row ---------- */
 
 .product {
   padding-bottom: 50px;
 }
+
+/* ---------- Bottom Row ---------- */
+

@@ -1,0 +1,20 @@
+/* ---------- Left Column ---------- */
+
+.shipping {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.paymentInfo {
+  padding-top: 20px;
+}
+
+.billingInfo {
+  padding-top: 20px;
+}
+
+/* ---------- Right Column ---------- */
+
+.rightSide {
+  margin-top: 105px;
+}

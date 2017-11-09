@@ -1,13 +1,15 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 
-import Cart from './cart';
+import cartReducer from './cartReducer';
 import checkoutReducer from './checkoutReducer';
+import paymentReducer from './paymentReducer';
 
 const rootReducer = combineReducers({
   router: routerReducer,
-  Cart,
-  checkoutReducer
+  cartReducer,
+  checkoutReducer,
+  paymentReducer
 })
 
 export default rootReducer

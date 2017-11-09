@@ -1,12 +1,123 @@
-.bottomRow {
+/* ---------- Left Column ---------- */
+
+.logo {
+  font-size: 35px;
+}
+
+.breadcrumb {
+  padding-top: 10px;
+}
+
+.customerInformation {
+  padding-top: 20px;
+}
+
+.shippingInformation {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.checkoutBottomRow {
+  margin-top: 10px;
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  height: 50px;
 }
 
 .returnToCart {
-  width: 50%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+.icon {
+  padding-top: 1px;
 }
 
 
-.shippingButton {
+/* ---------- Right Column ---------- */
+
+/* .rightColumn {
+  border-style: solid;
+  height: auto;
+}
+
+.cartProducts {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.cartImage {
+  padding-bottom: 0px;
+  padding-right: 25px;
+}
+
+.cartQuantity {
+  padding-top: 0px;
+  margin-top: 40px;
+}
+
+.cartDescription {
+  padding-top: 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: left;
+  margin-top: 30px
+}
+
+.productName {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.productDescription {
+  padding-top: 0px;
+}
+
+.cartTotal {
+  padding-left: 45px;
+  margin-top: 38px;
+}
+
+.subTotalRow {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+
+.totalRow {
+  display: flex;
+  flex-direction: row;
   float: right;
+} */
+
+
+/* New CSS */
+
+.ui.table.subtotalTable {
+  border-top: 1px solid rgba(34,36,38,.1);
+  border-bottom: 1px solid rgba(34,36,38,.1);
+}
+
+.ui.table.subtotalTable td {
+  border: none;
+}
+
+.subtotal {
+  font-weight: bold;
+}
+
+.shipping {
+  font-weight: bold;
+}
+
+.ui.table.totalTable {
+  font-weight: bold;
+  font-size: 25px;
 }

@@ -1,23 +1,61 @@
-.productRow {
-  margin-top: 100px;
+/* ---------- Top Row ---------- */
+
+.whyLabel {
+  padding-top: 10px;
 }
 
-.productTitle {
+.whyLabel h4 {
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.cartColumn {
+  padding-top: 10px;
+}
+
+.navOptions {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+  margin-top: 0px;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.navOptions li {
+  margin-right: 25px;
+}
+
+/* ---------- Middle Row ---------- */
+
+
+.productRow {
+  margin-top: 75px;
+}
+
+.productRow h2 {
   font-weight: bold;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-.productDescription {
+.productRow p {
   padding-top: 0px;
   margin-bottom: 0px;
+}
+
+.productRow h3 {
+  font-size: 20px;
 }
 
 .addToCart {
   padding-top: 10px;
 }
 
-.footer {
-  height: 100px;
+/* ---------- Bottom Row ---------- */
+
+.productBottomRow {
+  height: 50px;
   margin-top: 100px;
 }

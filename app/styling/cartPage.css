@@ -1,4 +1,55 @@
-.cartList {
-  border-collapse: collapse;
+/* ---------- Top Row ---------- */
+
+.whyLabel {
+  padding-top: 10px;
+}
+
+.whyLabel h4 {
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.cartColumn {
+  padding-top: 10px;
+}
+
+.navOptions {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.navOptions li {
+  margin-right: 25px;
+}
+
+/* ---------- Middle Row ---------- */
+
+.ui.table {
   border: none;
+}
+
+.ui.table thead th {
+  background-color: white;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.cartCheckout {
+  margin-right: 125px;
+  padding-top: 60px;
+}
+
+/* ---------- Bottom Row ---------- */
+
+.cartBottomRow {
+  position: relative;
+  bottom: 0px;
+  height: 50px;
+  margin-top: 80px;
 }

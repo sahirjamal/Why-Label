@@ -2,5 +2,6 @@
   "HOME": "/",
   "PRODUCT1": "/product1",
   "CART": "/cart",
-  "CHECKOUT": "/checkout"
+  "CHECKOUT": "/checkout",
+  "PAYMENT": "/payment"
 }
